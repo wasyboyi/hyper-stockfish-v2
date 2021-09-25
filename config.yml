@@ -1,4 +1,4 @@
-token: "lip_P9UC194cu4tH2Ezv4rbA"    # Lichess OAuth2 Token.
+token: "lip_MdfIkr72NQX2heAzGK7Y"    # Lichess OAuth2 Token.
 url: "https://lichess.org/"  # Lichess base URL.
 
 engine:                      # Engine settings.
@@ -65,7 +65,7 @@ abort_time: 30               # time to abort a game in seconds when there is no 
 fake_think_time: false       # artificially slow down the bot to pretend like it's thinking
 
 challenge:                   # incoming challenges
-  concurrency: 1             # number of games to play simultaneously
+  concurrency: 9             # number of games to play simultaneously
   sort_by: "best"            # possible values: "best", "first"
   accept_bot: true          # accepts challenges coming from other bots
   only_bot: false            # accept challenges by bots only
