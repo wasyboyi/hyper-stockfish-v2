@@ -18,19 +18,7 @@ engine:                      # Engine settings.
         - komodo.bin
         - elo3300.bin
         - Cerebellum3Merge.bin
-        - Book.bin
-        - codekiddy.bin
-        - DCbook_large.bin
-        - Elo2400.bin
-        - final-book.bin
-        - gavibook.bin
-        - Performance.bin
-        - varied.bin
-        - gavibook-small.bin
-        - gm2600.bin
-        - komodo.bin
-        - KomodoVariety.bin
-#      atomic: # list of book file paths for variant atomic
+        #      atomic: # list of book file paths for variant atomic
 #      etc.
 #      use the same pattern for giveaway, crazyhouse, horde, kingofthehill, racingkings, 3check as well
       min_weight: 100          # selects move with highest weight but not below this value
